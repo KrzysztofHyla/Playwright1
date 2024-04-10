@@ -19,7 +19,7 @@ Potężne narzędzia:
 - Codegen: Generuj testy, rejestrując swoje działania. Zapisz je w dowolnym języku.
 - Playwright Inspector: Inspekcja strony, generowanie selektorów, śledzenie wykonywania testu, eksploracja logów wykonania.
 - Trace Viewer: Przechwytuj wszystkie informacje do badania błędów testu.
-
+# Tests e2e & UI
 Celem testowania e2e przez VSC zapisanie w type-script była witryna phptravels.net
 Wstępnie założyłem repository jako testowe dla e2e testu
 Aby uruchomić środowisko testowe trzeba zainstalować:
@@ -36,3 +36,4 @@ b) wybranie miasta startu z listy
 c) wybranie miasta docelowego
 d) kliknięcie w pole wyszukaj
 e) wybranie hotelu z pozycji nr 1
+Test UI **npx playwrigt test --ui**
