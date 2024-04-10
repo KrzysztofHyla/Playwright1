@@ -39,3 +39,10 @@ e) wybranie hotelu z pozycji nr 1
 
 Test UI **npx playwrigt test --ui**
 Watch mode which will re-run the test when you make changes to it. You can watch a number of tests at the same time be clicking the eye icon next to each one or all tests by clicking the eye icon at the top of the sidebar. If you are using VS Code then you can easily open your test by clicking on the file icon next to the eye icon. This will open your test in VS Code right at the line of code that you clicked on.
+
+# Docker & GitHub Codespaces
+For Docker and GitHub Codespaces environments, you can run UI mode in the browser. In order for an endpoint to be accessible outside of the container, it needs to be bound to the 0.0.0.0 interface:
+
+npx playwright test --ui-host=0.0.0.0
+
+In the case of GitHub Codespaces, the port gets forwarded automatically, so you can open UI mode in the browser by clicking on the link in the terminal.
