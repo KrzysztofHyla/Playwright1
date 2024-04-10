@@ -8,3 +8,10 @@ Aby uruchomić środowisko testowe trzeba zainstalować:
 
 Konfiguracja
 npm --install playwright
+
+Test ete https://phptravels.net
+a) wejście na stronę
+b) wybranie miasta startu z listy
+c) wybranie miasta docelowego
+d) kliknięcie w pole wyszukaj
+e) wybranie hotelu z pozycji nr 1
