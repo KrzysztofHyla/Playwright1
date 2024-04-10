@@ -20,7 +20,7 @@ Potężne narzędzia:
 - Playwright Inspector: Inspekcja strony, generowanie selektorów, śledzenie wykonywania testu, eksploracja logów wykonania.
 - Trace Viewer: Przechwytuj wszystkie informacje do badania błędów testu.
 
-Celem testowania e2e przez VSC zapisanie w java-script była witryna phptravels.net
+Celem testowania e2e przez VSC zapisanie w type-script była witryna phptravels.net
 Wstępnie założyłem repository jako testowe dla e2e testu
 Aby uruchomić środowisko testowe trzeba zainstalować:
 1) Visual Studio Code
