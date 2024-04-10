@@ -5,3 +5,6 @@ Aby uruchomić środowisko testowe trzeba zainstalować:
 1) Visual Studio Code
 2) node.js
 3) marketplace Playwright
+
+Konfiguracja
+npm --install playwright
